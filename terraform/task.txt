@@ -12,3 +12,7 @@ The "main.tf" file shows a small incomplete fragment of terraform code.  Using t
 
 3. Create an output.tf file that would provide an output made up of the list of VM hostnames as a map, keyed by the instance name
 4. Bonus - extend the output to output the IP addresses assigned to each instance, keyed by instance FQDN
+
+
+note: Fully Qualified Domain Name (FQDN) is DNS name for google instance: internal and external
+<instance-name>.<zone>.c.<project-id>.internal
